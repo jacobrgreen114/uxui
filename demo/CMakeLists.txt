@@ -2,7 +2,7 @@
 
 
 add_executable(uxui_demo
-        src/Main.cpp
+        src/main.cpp
 )
 
 target_link_libraries(uxui_demo

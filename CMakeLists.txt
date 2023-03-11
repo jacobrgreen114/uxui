@@ -4,21 +4,21 @@
 
 add_library(uxui
     STATIC
-        src/Uxui.cpp
-        src/Application.cpp
-        src/Window.cpp
-        src/Events.cpp
-        src/UIElement.cpp
-        src/Visual.cpp
-        src/Controls/Control.cpp
-        src/Controls/ContentControl.cpp
-        src/Controls/Button.cpp
-        src/Controls/Border.cpp
-        src/Controls/Label.cpp
-        src/Controls/Image.cpp
-        src/Panels/Panel.cpp
-        src/Panels/StackPanel.cpp
-        src/Panels/GridPanel.cpp
+        src/uxui.cpp
+        src/application.cpp
+        src/window.cpp
+        src/events.cpp
+        src/uielement.cpp
+        src/visual.cpp
+        src/Controls/control.cpp
+        src/Controls/content_control.cpp
+        src/Controls/button.cpp
+        src/Controls/border.cpp
+        src/Controls/label.cpp
+        src/Controls/image.cpp
+        src/Panels/panel.cpp
+        src/Panels/stack_panel.cpp
+        src/Panels/grid_panel.cpp
 )
 
 target_compile_definitions(uxui
