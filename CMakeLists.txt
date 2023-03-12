@@ -45,3 +45,5 @@ target_precompile_headers(uxui
 )
 
 add_subdirectory(Demo)
+
+install(TARGETS uxui)
