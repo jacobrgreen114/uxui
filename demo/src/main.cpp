@@ -96,3 +96,8 @@ int main(int argc, const char** argv) {
 
   return exitCode;
 }
+
+auto WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine,
+             int nShowCmd) -> int {
+  return main(0, null);
+}

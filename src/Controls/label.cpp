@@ -19,7 +19,7 @@ void Label::on_render(RenderEvent& e) {
   auto& pad = padding();
 
   point.x += pad.l;
-  point.y += pad.t + _formattedText->font()->baseline_y();
+  point.y += pad.t + _formattedText->font()->ascender();
 
   e.Context.draw_rectangle(final_rect(), {}, background());
   e.Context.draw_formatted_text(point, *_formattedText, foreground());
